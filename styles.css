@@ -1,7 +1,7 @@
 .form {
     background-color: rgb(255, 255, 255);
-    width: 200px;
-    padding: 12px;
+    width: 22.2vh;
+    padding: 2vh;
     border-radius: 12px;
     align-items: center;
     position: relative;
@@ -23,7 +23,8 @@ body {
 
 
 .form input {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
+    width:22vh;
 }
 
 #select {
@@ -50,10 +51,10 @@ button {
     color: white;
     padding: 6px;
     border: 2px solid white;
-    width: 170px;
+    width: 22vh;
     border-radius: 12px;
     display: inline-block;
-    transition: ease-in-out .2s;
+    transition: ease-in-out .12s;
 }
 
 button:hover {
@@ -62,9 +63,9 @@ button:hover {
 }
 
 button:focus {
-    width: 100px;
-    margin-left: 30px;
-    height: 25px;
+    width: 17vh;
+    margin-left: 3vh;
+    height: 3.5vh;
     font-size: 1.2vh;
     margin-top: 5px;
 }
